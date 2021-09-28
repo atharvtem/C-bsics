@@ -1,2 +1,2 @@
 # C-bsics
-codes with C++ basics.
+Codes with C++ basics.
