@@ -3,10 +3,14 @@ using namespace std;
 
 int main()
 {
-    int i,n;
-    cin>>n;
-    for(i=1; i<n; i++)
+    int n;
+    cout << "Enter number" << "\n";
+    cin >> n;
+    int factorial=1;
+    for(int i=2;i<=n;i++)
     {
-        cout<<i<<endl;
+        
+        factorial*=i;
     }
+    cout << "Factorial of given number is: " << factorial << "\n";
 }
